@@ -12,7 +12,6 @@ with open('file.txt' , 'r') as f:
 update_file=' '.join(l)
 print(update_file)  
 
-
 def overridemf():
     with open('file.txt' , 'w') as p:
         p.write(update_file)
